@@ -1,0 +1,39 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.aaa.selfiehd.MainActivity" >
+
+    <!--
+         <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never"/>
+    -->
+
+    <item
+        android:id="@+id/feed"
+        android:title="@string/feedback"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/rate"
+        android:title="@string/rate_us"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/share"
+        android:title="@string/share"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/more"
+        android:title="@string/more"
+        app:showAsAction="never"/>
+<!--     <item
+        android:id="@+id/help"
+        android:title="@string/help"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/abt"
+        android:title="@string/abt"
+        app:showAsAction="never"/> -->
+
+</menu>
